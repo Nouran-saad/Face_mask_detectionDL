@@ -113,6 +113,47 @@ MobileNetV2 also introduce the concept of linear bottlenecks, which are used to 
 <br />
 <br />
 <br />
+
+* Result of images with mask and no mask
+<p align="center">
+<img src="https://github.com/Nouran-saad/Face_mask_detectionDL/assets/55962261/4a8bc0b7-2b5d-408e-b499-8878b30155c5"  width="50%" height="5%" align="right">
+</p>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+
+<p align="center">
+<img src="https://github.com/Nouran-saad/Face_mask_detectionDL/assets/55962261/3cc106dd-fcea-42ca-91b6-5dbfa9d9932a"  width="50%" height="5%" align="right">
+</p>
+
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 <br />
 <br />
 <br />
