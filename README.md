@@ -20,6 +20,8 @@ MobileNetV2 also introduce the concept of linear bottlenecks, which are used to 
 <br />
 <br />
 <br />
+
+
 ## Testing
 * Result of training throughout the 12 epochs
 <p align="center">
