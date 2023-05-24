@@ -58,4 +58,17 @@ MobileNetV2 also introduce the concept of linear bottlenecks, which are used to 
 <img src="https://github.com/Nouran-saad/Face_mask_detectionDL/assets/55962261/e5f2b45c-1c2b-40e1-a8c7-9db87cf80813"  width="50%" height="5%" align="right">
 </p>
 
+## Comparison between other architectures
+*	MobileNetV2:
+ Pros: MobileNetV2 is lightweight and efficient, making it suitable for deployment on resource-constrained devices. It offers a good balance between model size, speed, and accuracy.
+ Cons: Due to its reduced complexity, MobileNetV2 may have limitations in capturing intricate details and handling complex patterns compared to deeper architectures.
+*	ResNet:
+	Pros: ResNet's residual connections enable effective training of very deep networks and help capture intricate features. It has achieved state-of-the-art performance on various computer vision tasks.
+	Cons: Deeper ResNet architectures may be computationally expensive and require a larger amount of training data to prevent overfitting.
+*	DenseNet:
+	Pros: DenseNet's dense connectivity promotes feature reuse and enhances gradient flow throughout the network. It allows for efficient parameter usage and has shown strong performance with limited training data.
+	Cons: DenseNet architectures may have higher memory requirements compared to other models due to the dense connections.
+*	Inception:
+	Pros: Inception models capture information at multiple spatial resolutions, allowing them to extract both local and global features effectively. They have demonstrated strong performance in various computer vision tasks.
+	Cons: Inception architectures can be computationally expensive and may require more resources during training and inference compared to simpler models.
 
