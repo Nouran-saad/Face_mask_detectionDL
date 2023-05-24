@@ -25,20 +25,31 @@ MobileNetV2 also introduce the concept of linear bottlenecks, which are used to 
 ## Testing
 * Result of training throughout the 12 epochs
 <p align="center">
-<img src="https://github.com/Nouran-saad/Face_mask_detectionDL/assets/55962261/f98b4811-5a38-40a0-866c-6e445bd2877e"  width="30%" height="5%" align="right">
+<img src="https://github.com/Nouran-saad/Face_mask_detectionDL/assets/55962261/f98b4811-5a38-40a0-866c-6e445bd2877e"  width="50%" height="5%" align="right">
 </p>
 
-
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 
 * Classification Report
 
 <p align="center">
-<img src="https://github.com/Nouran-saad/Face_mask_detectionDL/assets/55962261/7820b251-d288-418c-8332-aa8095a84dc4"  width="30%" height="5%" align="right">
+<img src="https://github.com/Nouran-saad/Face_mask_detectionDL/assets/55962261/7820b251-d288-418c-8332-aa8095a84dc4"  width="50%" height="5%" align="right">
 </p>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 
 * Graph of loss and accuracy
 <p align="center">
-<img src="https://github.com/Nouran-saad/Face_mask_detectionDL/assets/55962261/e5f2b45c-1c2b-40e1-a8c7-9db87cf80813"  width="30%" height="5%" align="right">
+<img src="https://github.com/Nouran-saad/Face_mask_detectionDL/assets/55962261/e5f2b45c-1c2b-40e1-a8c7-9db87cf80813"  width="50%" height="5%" align="right">
 </p>
 
 
