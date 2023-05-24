@@ -14,6 +14,12 @@ MobileNetV2 also introduce the concept of linear bottlenecks, which are used to 
 
 <img src="https://github.com/Nouran-saad/Face_mask_detectionDL/assets/55962261/8386b3d9-b972-4305-b914-ad44e747820f"  width="60%" height="5%" align="right">
 
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 ## Testing
 * Result of training throughout the 12 epochs
 <p align="center">
