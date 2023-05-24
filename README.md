@@ -74,6 +74,7 @@ MobileNetV2 also introduce the concept of linear bottlenecks, which are used to 
 <br />
 <br />
 <br />
+
 * Result of video stream with mask and no mask
 <p align="center">
 <img src="https://github.com/Nouran-saad/Face_mask_detectionDL/assets/55962261/d19a5271-a24d-4727-a2aa-fdaae6035207"  width="50%" height="5%" align="right">
@@ -86,9 +87,11 @@ MobileNetV2 also introduce the concept of linear bottlenecks, which are used to 
 <br />
 <br />
 <br />
+
 <p align="center">
 <img src="ttps://github.com/Nouran-saad/Face_mask_detectionDL/assets/55962261/d98018ed-df28-4f11-bcd7-9328a41e2ca6"  width="50%" height="5%" align="right">
 </p>
+
 <br />
 <br />
 <br />
