@@ -108,7 +108,18 @@ MobileNetV2 also introduce the concept of linear bottlenecks, which are used to 
 <br />
 <br />
 <br />
-
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 
 ## Comparison between other architectures
 1. **MobileNetV2**
