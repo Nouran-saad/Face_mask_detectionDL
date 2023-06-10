@@ -187,10 +187,7 @@ MobileNetV2 also introduce the concept of linear bottlenecks, which are used to 
 2. **ResNet**
    * Pros: ResNet's residual connections enable effective training of very deep networks and help capture intricate features. It has achieved state-of-the-art performance on various computer vision tasks.
    * Cons: Deeper ResNet architectures may be computationally expensive and require a larger amount of training data to prevent overfitting.
-3. **DenseNet**
-   * Pros: DenseNet's dense connectivity promotes feature reuse and enhances gradient flow throughout the network. It allows for efficient parameter usage and has shown strong performance with limited training data.
-   * Cons: DenseNet architectures may have higher memory requirements compared to other models due to the dense connections.
-4. **Inception**
+3. **Inception**
     * Pros: Inception models capture information at multiple spatial resolutions, allowing them to extract both local and global features effectively. They have demonstrated strong performance in various computer vision tasks.
     * Cons: Inception architectures can be computationally expensive and may require more resources during training and inference compared to simpler models.
 
