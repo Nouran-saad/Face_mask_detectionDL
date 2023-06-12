@@ -7,6 +7,9 @@
 Implementing a face mask detection system requires integrating multiple technologies, including computer vision, machine learning, and deep learning. The goal is to create an automated system that can analyse video frames, identify faces, and accurately classify whether a person is wearing a mask, wearing it incorrectly, or not wearing a mask at all. The system should provide real-time feedback to ensure timely intervention and enforcement of mask-wearing protocols.
 To address this problem, we will utilize Python, Keras, and OpenCV, which are popular tools and libraries for computer vision and deep learning tasks. By leveraging pre-trained deep learning models and image processing techniques, we can develop an efficient and effective face mask detection system that operates on real video streams.
 
+## Diagram
+![image](https://github.com/Nouran-saad/Face_mask_detectionDL/assets/55962261/192bb94b-6e90-4169-ba6d-7309fa7d3502)
+
 ## Implementation
 * Architecture of MobileNetV2 (Detection of mask):
 The inverted residual structure is introduced as an alternative to the traditional residual connections. Instead of adding the input feature maps to the output, MobileNetV2 employs a depth-wise convolution which is , it applies a separate filter to each input channel and produces a set of intermediate output channels followed by a point-wise linear projection to change the number of channels and It takes the intermediate output channels from the depth-wise convolution and performs a 1 × 1 convolution on them. This convolution is responsible for combining and building new features by computing linear combinations of the input channels. This structure reduces the number of parameters and computations compared to traditional residuals.
@@ -25,7 +28,7 @@ MobileNetV2 also introduce the concept of linear bottlenecks, which are used to 
 ## Testing
 * Result of training throughout the 12 epochs
 <p align="center">
-<img src="https://github.com/Nouran-saad/Face_mask_detectionDL/assets/55962261/f98b4811-5a38-40a0-866c-6e445bd2877e"  width="50%" height="5%" align="right">
+<img src="https://github.com/Nouran-saad/Face_mask_detectionDL/assets/55962261/891bdfa9-8fac-46d6-b915-82aaa7f04e5d"  width="50%" height="5%" align="right">
 </p>
 
 <br />
@@ -41,20 +44,11 @@ MobileNetV2 also introduce the concept of linear bottlenecks, which are used to 
 <br />
 <br />
 
-* Classification Report
-<p align="center">
-<img src="https://github.com/Nouran-saad/Face_mask_detectionDL/assets/55962261/7820b251-d288-418c-8332-aa8095a84dc4"  width="50%" height="5%" align="right">
-</p>
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
+
 
 * Graph of loss and accuracy
 <p align="center">
-<img src="https://github.com/Nouran-saad/Face_mask_detectionDL/assets/55962261/e5f2b45c-1c2b-40e1-a8c7-9db87cf80813"  width="50%" height="5%" align="right">
+<img src="https://github.com/Nouran-saad/Face_mask_detectionDL/assets/55962261/e71bdf8f-3532-48e8-9960-b403d965fa81"  width="50%" height="5%" align="right">
 </p>
 <br />
 <br />
@@ -74,6 +68,7 @@ MobileNetV2 also introduce the concept of linear bottlenecks, which are used to 
 <br />
 <br />
 <br />
+
 
 * Result of video stream with mask and no mask
 <p align="center">
@@ -116,9 +111,8 @@ MobileNetV2 also introduce the concept of linear bottlenecks, which are used to 
 
 * Result of images with mask and no mask
 <p align="center">
-<img src="https://github.com/Nouran-saad/Face_mask_detectionDL/assets/55962261/751250bc-0e6e-4c93-9ea7-13ed3de529ca"  width="50%" height="2%" align="right">
+<img src="https://github.com/Nouran-saad/Face_mask_detectionDL/assets/55962261/8034fa61-5243-4fa0-92ef-271e824af43e"  width="50%" height="2%" align="right">
 </p>
-
 
 <br />
 <br />
@@ -141,7 +135,7 @@ MobileNetV2 also introduce the concept of linear bottlenecks, which are used to 
 <br />
 
 <p align="center">
-<img src="https://github.com/Nouran-saad/Face_mask_detectionDL/assets/55962261/3cc106dd-fcea-42ca-91b6-5dbfa9d9932a"  width="50%" height="2%" align="right">
+<img src="https://github.com/Nouran-saad/Face_mask_detectionDL/assets/55962261/85051949-ce54-4511-90bc-2e1551025dbe"  width="50%" height="2%" align="right">
 </p>
 
 
@@ -181,10 +175,12 @@ MobileNetV2 also introduce the concept of linear bottlenecks, which are used to 
 <br />
 
 ## Comparison between other architectures
-2. **ResNet**
-   * Pros: ResNet's residual connections enable effective training of very deep networks and help capture intricate features. It has achieved state-of-the-art performance on various computer vision tasks.
-   * Cons: Deeper ResNet architectures may be computationally expensive and require a larger amount of training data to prevent overfitting.
-3. **Inception**
-    * Pros: Inception models capture information at multiple spatial resolutions, allowing them to extract both local and global features effectively. They have demonstrated strong performance in various computer vision tasks.
-    * Cons: Inception architectures can be computationally expensive and may require more resources during training and inference compared to simpler models.
-
+1.  **MobileNetV2**
+We can see that it’s accurate model with accuracy 97.33% and when we tested it on images it worked well with a good prediction value but still resNet50 better than it.
+The model takes to finish the 12 epochs 18 minutes and it the shortest time between all the models. 
+2.  **ResNet**
+We can see that it’s the most accurate model with accuracy 99.08% and when we tested it on images it worked so well with the highest prediction values among the remaining models. 
+The model takes to finish the 12 epochs 53 minutes and it the longest time between all the models. 
+3. **InceptionV3**
+   We can see that it’s the most accurate model with accuracy 92.75 % and when we tested it on images it worked so well with the lowest prediction values among the other models. 
+The model takes to finish the 12 epochs 34 minutes and it is an average time between the other models.
