@@ -157,15 +157,7 @@ MobileNetV2 also introduce the concept of linear bottlenecks, which are used to 
 <br />
 <br />
 <br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
+
 
 
 ## Comparison between other architectures
@@ -179,6 +171,11 @@ The model takes to finish the 12 epochs 53 minutes and it the longest time betwe
 <img src="https://github.com/Nouran-saad/Face_mask_detectionDL/assets/55962261/2348f839-ef16-419f-ad51-37bcb4d8cfc3"  width="50%" height="3%" align="right">
 </p>
 
+<br />
+<br />
+<br />
+<br />
+<br />
 <br />
 <br />
 <br />
