@@ -111,7 +111,7 @@ MobileNetV2 also introduce the concept of linear bottlenecks, which are used to 
 
 * Result of images with mask and no mask
 <p align="center">
-<img src="https://github.com/Nouran-saad/Face_mask_detectionDL/assets/55962261/8034fa61-5243-4fa0-92ef-271e824af43e"  width="50%" height="2%" align="right">
+<img src="https://github.com/Nouran-saad/Face_mask_detectionDL/assets/55962261/8034fa61-5243-4fa0-92ef-271e824af43e"  width="30%" height="2%" align="right">
 </p>
 
 <br />
@@ -135,7 +135,7 @@ MobileNetV2 also introduce the concept of linear bottlenecks, which are used to 
 <br />
 
 <p align="center">
-<img src="https://github.com/Nouran-saad/Face_mask_detectionDL/assets/55962261/85051949-ce54-4511-90bc-2e1551025dbe"  width="50%" height="2%" align="right">
+<img src="https://github.com/Nouran-saad/Face_mask_detectionDL/assets/55962261/85051949-ce54-4511-90bc-2e1551025dbe"  width="30%" height="2%" align="right">
 </p>
 
 
@@ -181,6 +181,23 @@ The model takes to finish the 12 epochs 18 minutes and it the shortest time betw
 2.  **ResNet**
 We can see that it’s the most accurate model with accuracy 99.08% and when we tested it on images it worked so well with the highest prediction values among the remaining models. 
 The model takes to finish the 12 epochs 53 minutes and it the longest time between all the models. 
+<p align="center">
+<img src="https://github.com/Nouran-saad/Face_mask_detectionDL/assets/55962261/2348f839-ef16-419f-ad51-37bcb4d8cfc3"  width="30%" height="2%" align="right">
+</p>
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
 3. **InceptionV3**
    We can see that it’s the most accurate model with accuracy 92.75 % and when we tested it on images it worked so well with the lowest prediction values among the other models. 
 The model takes to finish the 12 epochs 34 minutes and it is an average time between the other models.
+<p align="center">
+<img src="https://github.com/Nouran-saad/Face_mask_detectionDL/assets/55962261/f38a832c-3b2b-450c-a997-923919429347"  width="30%" height="2%" align="right">
+</p>
+
+
