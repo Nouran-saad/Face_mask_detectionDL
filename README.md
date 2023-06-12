@@ -183,6 +183,13 @@ The model takes to finish the 12 epochs 53 minutes and it the longest time betwe
 <br />
 <br />
 <br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
 
 3. **InceptionV3**
    We can see that it’s the most accurate model with accuracy 92.75 % and when we tested it on images it worked so well with the lowest prediction values among the other models. 
