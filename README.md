@@ -181,9 +181,6 @@ MobileNetV2 also introduce the concept of linear bottlenecks, which are used to 
 <br />
 
 ## Comparison between other architectures
-1. **MobileNetV2**
-   * Pros: MobileNetV2 is lightweight and efficient, making it suitable for deployment on resource-constrained devices. It offers a good balance between model size, speed, and accuracy.
-   * Cons: Due to its reduced complexity, MobileNetV2 may have limitations in capturing intricate details and handling complex patterns compared to deeper architectures.
 2. **ResNet**
    * Pros: ResNet's residual connections enable effective training of very deep networks and help capture intricate features. It has achieved state-of-the-art performance on various computer vision tasks.
    * Cons: Deeper ResNet architectures may be computationally expensive and require a larger amount of training data to prevent overfitting.
