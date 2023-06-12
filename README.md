@@ -8,7 +8,8 @@ Implementing a face mask detection system requires integrating multiple technolo
 To address this problem, we will utilize Python, Keras, and OpenCV, which are popular tools and libraries for computer vision and deep learning tasks. By leveraging pre-trained deep learning models and image processing techniques, we can develop an efficient and effective face mask detection system that operates on real video streams.
 
 ## Diagram
-![image](https://github.com/Nouran-saad/Face_mask_detectionDL/assets/55962261/192bb94b-6e90-4169-ba6d-7309fa7d3502)
+![image](https://github.com/Nouran-saad/Face_mask_detectionDL/assets/55962261/77de5acb-fc3e-4220-890e-015894a5b418)
+
 
 ## Implementation
 * Architecture of MobileNetV2 (Detection of mask):
